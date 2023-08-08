@@ -7,7 +7,7 @@ import io
 import os
 import pathlib
 
-from distutils.version import StrictVersion
+from packaging.version import Version
 
 import unittest
 
@@ -33,7 +33,7 @@ class TestPluginManagerMetadata(unittest.TestCase):
         versions = list(self.content["versions"].items())
         sorted_versions = sorted(
             versions,
-            key=lambda version: StrictVersion(version[0]),
+            key=lambda version: Version(version[0]),
             reverse=True,
         )
         assert sorted_versions == versions
@@ -105,7 +105,7 @@ class BaseCategoryMetadataTestCases:
                 versions = list(plugin_metadata["versions"].items())
                 sorted_versions = sorted(
                     versions,
-                    key=lambda version: StrictVersion(version[0]),
+                    key=lambda version: Version(version[0]),
                     reverse=True,
                 )
                 self.assertEqual(sorted_versions, versions)
@@ -159,6 +159,15 @@ class TestUtilitiesCategoryMetadata(BaseCategoryMetadataTestCases.BaseTest):
         super().setUp()
         self.name = "Utilities"
         self.category = os.path.join("plugins", "utilities")
+        with open(f"{self.category}.json", "rb") as fin:
+            self.content = json.load(fin)
+
+
+class TestMapsCategoryMetadata(BaseCategoryMetadataTestCases.BaseTest):
+    def setUp(self):
+        super().setUp()
+        self.name = "Maps"
+        self.category = os.path.join("plugins", "maps")
         with open(f"{self.category}.json", "rb") as fin:
             self.content = json.load(fin)
 

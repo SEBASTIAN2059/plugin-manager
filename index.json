@@ -1,6 +1,42 @@
 {
   "plugin_manager_url": "https://github.com/bombsquad-community/plugin-manager/{content_type}/{tag}/plugin_manager.py",
   "versions": {
+    "1.0.1": {
+      "api_version": 8,
+      "commit_sha": "7dba50e",
+      "released_on": "29-06-2023",
+      "md5sum": "099ebc828a13f9a7040486bab4932a55"
+    },
+    "1.0.0": {
+      "api_version": 8,
+      "commit_sha": "0b55bc2",
+      "released_on": "20-06-2023",
+      "md5sum": "98fa2f29c3a2d34b5ff53b7abde7ec64"
+    },
+    "0.3.5": {
+      "api_version": 7,
+      "commit_sha": "985e486",
+      "released_on": "15-06-2023",
+      "md5sum": "5da137a353b4fa35e4d9926107cf4754"
+    },
+    "0.3.4": {
+      "api_version": 7,
+      "commit_sha": "2d74b52",
+      "released_on": "14-05-2023",
+      "md5sum": "7ff90318c4c379f7f0039c13ddaeaef0"
+    },
+    "0.3.3": {
+      "api_version": 7,
+      "commit_sha": "b48119b",
+      "released_on": "13-05-2023",
+      "md5sum": "611c20732eda494d9ad7090b0bc3df54"
+    },
+    "0.3.2": {
+      "api_version": 7,
+      "commit_sha": "789f95f",
+      "released_on": "30-04-2023",
+      "md5sum": "ff679f8411e426e5e4e92a2f958eec02"
+    },
     "0.3.1": {
       "api_version": 7,
       "commit_sha": "0b856ba",

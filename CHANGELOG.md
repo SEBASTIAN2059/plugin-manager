@@ -1,5 +1,31 @@
 ## Plugin Manager (dd-mm-yyyy)
 
+### 1.0.1 (30-06-2023)
+
+- Allow specifying branch names in custom sources.
+
+### 1.0.0 (20-06-2023)
+
+- Migrate plugin manager's source code to API 8.
+
+### 0.3.5 (16-06-2023)
+
+- Replace the "Loading..." text with the exception message in case something goes wrong.
+
+### 0.3.4 (14-05-2023)
+
+- Optimize new plugin detection mechanism.
+
+### 0.3.3 (13-05-2023)
+
+- Print the number and names of the client supported plugins which are newly added to the plugin manager.
+
+### 0.3.2 (30-04-2023)
+
+- Fix sometimes same sound would repeat twice when pressing a button.
+- Low key attempt to experiment with staging branch by changing current tag in `plugin_manager.py`.
+- Assume underscores as spaces when searching for plugins in game.
+
 ### 0.3.1 (04-03-2023)
 
 - Resize the plugin window to limit the overlapping of plugin description.

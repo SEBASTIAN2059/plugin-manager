@@ -1,5 +1,12 @@
 [![CI](https://github.com/bombsquad-community/plugin-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/bombsquad-community/plugin-manager/actions/workflows/ci.yml)
 
+**Important:** Please check out the [api7](https://github.com/bombsquad-community/plugin-manager/tree/api7) branch if you're
+using the game version (1.7.0 <= your game version <= 1.7.19) which uses API 7 plugins.
+If you're on game version (1.7.20 or a later version) where it uses API 8 plugins, then proceed with the rest of the
+README here.
+
+-------------------------------
+
 # plugin-manager
 
 A plugin manager for the game - [Bombsquad](https://www.froemling.net/apps/bombsquad). Plugin manager is a plugin in itself,
@@ -33,8 +40,14 @@ There are two different ways the plugin manager can be installed:
 
 1. [Download plugin_manager.py][DownloadLink] to your mods directory (check it out by going into your game's
    Settings -> Advanced -> Show Mods Folder). This is the recommended way (read next method to know why).
+   If you're on a newer version of Android (11 or above) and not rooted, it probably won't be possible to copy
+   mods to game's mods folder. In this case, you can connect your Android phone to a computer and push `plugin_manager.py`
+   [using `adb`](https://www.xda-developers.com/install-adb-windows-macos-linux/):
+   ```bash
+   $ adb push plugin_manager.py /sdcard/Android/data/net.froemling.bombsquad/files/mods/plugin_manager.py
+   ```
 
-2. Another way is to add
+3. Another way is to add
    [plugin_manager.py](https://raw.githubusercontent.com/bombsquad-community/plugin-manager/main/plugin_manager.py)
    to your workspace. However, plugin manager self-updates will fail when installed using this way since the game
    will overrwrite the updated plugin manager, with the older version from workspace on the next sync. However, you can
@@ -67,19 +80,19 @@ There are two different ways the plugin manager can be installed:
 
 Let's say you wanna submit this new utility-type plugin named as `sample_plugin.py`:
 ```python
-# ba_meta require api 7
-import ba
+# ba_meta require api 8
+import babase
 
-# ba_meta export plugin
-class Main(ba.Plugin):
+# ba_meta export babase.Plugin
+class Main(babase.Plugin):
     def on_app_running(self):
-        ba.screenmessage("Hi! I am a sample plugin!")
+        babase.screenmessage("Hi! I am a sample plugin!")
 
     def has_settings_ui(self):
         return True
 
     def show_settings_ui(self, source_widget):
-        ba.screenmessage("You tapped my settings!")
+        babase.screenmessage("You tapped my settings!")
 ```
 
 You'll have to fork this repository and add your `sample_plugin.py` plugin file into the appropriate directory, which for
@@ -136,17 +149,17 @@ diff --git a/plugins/utilities/sample_plugin.py b/plugins/utilities/sample_plugi
 index ebb7dcc..da2b312 100644
 --- a/plugins/utilities/sample_plugin.py
 +++ b/plugins/utilities/sample_plugin.py
-@@ -5,6 +5,7 @@ import ba
- class Main(ba.Plugin):
+@@ -5,6 +5,7 @@ import babase
+ class Main(babase.Plugin):
      def on_app_running(self):
-         ba.screenmessage("Hi! I am a sample plugin!")
+         babase.screenmessage("Hi! I am a sample plugin!")
 
      def has_settings_ui(self):
          return True
 
      def show_settings_ui(self, source_widget):
--        ba.screenmessage("You tapped my settings!")
-+        ba.screenmessage("Hey! This is my new screenmessage!")
+-        babase.screenmessage("You tapped my settings!")
++        babase.screenmessage("Hey! This is my new screenmessage!")
 ```
 
 To name this new version as `1.1.0`, add `"1.1.0": null,` just above the previous plugin version in `utilities.json`:
@@ -174,9 +187,11 @@ That's it! Now you can make a [pull request](../../compare) with both the update
 
 - In case your plugin doesn't sit well with our guidelines or you wouldn't want your plugin to be here for some reason,
   you can create your own GitHub repository and put all your plugins in there.
-- Check out https://github.com/rikkolovescats/sahilp-plugins as an example. You can choose to show up plugins from this
-  repository in your plugin manager by adding `rikkolovescats/sahilp-plugins` as a custom source through the category
-  selection popup window in-game.
+- Check out [bombsquad-community/sample-plugin-source](https://github.com/bombsquad-community/sample-plugin-source) as an example.
+  You can choose to show up plugins from this repository in your plugin manager by adding `bombsquad-community/sample-plugin-source`
+  as a custom source through the category selection popup window in-game.
+- Plugin manager will default to picking up plugins from the `main` branch of the custom source repository. You
+  can specify a different branch by suffixing the source URI with `@branchname`, such as `bombsquad-community/sample-plugin-source@experimental`.
 
   #### Known 3rd Party Plugin Sources
 
@@ -184,7 +199,8 @@ That's it! Now you can make a [pull request](../../compare) with both the update
   will also help us to notify the maintainers of any future breaking changes in plugin manager that could affect 3rd party
   plugin sources.
 
-  https://github.com/rikkolovescats/sahilp-plugins
+  - [rikkolovescats/sahilp-plugins](https://github.com/rikkolovescats/sahilp-plugins)
+  - [Aeliux/arcane](https://github.com/Aeliux/arcane)
 
 
 ## Tests
@@ -215,4 +231,6 @@ create something similar, with a hope we as a community can continue to keep it 
 - [Plugin manager's source code](plugin_manager.py) is licensed under the MIT license. See [LICENSE](LICENSE) for more
   information.
 - Any plugins you submit here are automatically assumed to be licensed under the MIT license, i.e. unless you explicitly
-  specify a different license while submitting a plugin.
+  specify a different license in your plugin's source code. See
+  [this plugin](https://github.com/rikkolovescats/plugin-manager/blob/f29008acdbf54988f3622ae4baa8735d83338bb5/plugins/utilities/store_event_specials.py#L1-L22)
+  for an example.
