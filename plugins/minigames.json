@@ -67,16 +67,28 @@
       }
     },
     "simon_says": {
-      "description": "You better do what Simon says",
+      "description": "You better do what Simon says. Playable in co-op",
       "external_url": "",
       "authors": [
         {
-          "name": "Unknown",
+          "name": "-",
           "email": "",
           "discord": ""
         }
       ],
       "versions": {
+        "1.0.2": {
+          "api_version": 8,
+          "commit_sha": "593ae6f",
+          "released_on": "16-02-2024",
+          "md5sum": "57cd7a06f1f3169752cf77537affcf5b"
+        },
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "3b55e82dc1c1d4d84760c23098233e30"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2fda676",
@@ -92,10 +104,16 @@
         {
           "name": "JoseAng3l",
           "email": "",
-          "discord": "! JoseANG3L#0268"
+          "discord": "joseang3l"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "74d61a487379d163c3f5713f001ec69d"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2fda676",
@@ -111,10 +129,16 @@
         {
           "name": "JoseAng3l",
           "email": "",
-          "discord": "! JoseANG3L#0268"
+          "discord": "joseang3l"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "25f9018fdc70173212e436d4e7c41e97"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2fda676",
@@ -130,10 +154,16 @@
         {
           "name": "JoseAng3l",
           "email": "",
-          "discord": "! JoseANG3L#0268"
+          "discord": "joseang3l"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "4630220820b08642e9c72f9f24675298"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2fda676",
@@ -149,7 +179,7 @@
         {
           "name": "JoseAng3l",
           "email": "",
-          "discord": "! JoseANG3L#0268"
+          "discord": "joseang3l"
         }
       ],
       "versions": {
@@ -172,12 +202,18 @@
       "external_url": "",
       "authors": [
         {
-          "name": "Unknown",
+          "name": "-",
           "email": "",
           "discord": ""
         }
       ],
       "versions": {
+        "1.1.0": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "6c90c97151c31d240a760590c56d7dbf"
+        },
         "1.0.1": {
           "api_version": 7,
           "commit_sha": "d511c15",
@@ -199,10 +235,16 @@
         {
           "name": "Cross Joy",
           "email": "cross.joy.official@gmail.com",
-          "discord": "Cross Joy#0721"
+          "discord": "crossjoy"
         }
       ],
       "versions": {
+        "2.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "c7d3cc971090ee5a4cb0f096dad9f118"
+        },
         "2.0.0": {
           "api_version": 7,
           "commit_sha": "8b257b3",
@@ -218,7 +260,7 @@
         {
           "name": "Rikko",
           "email": "rikkolovescats@proton.me",
-          "discord": "Rikko#7383"
+          "discord": "rikkolovescats"
         }
       ],
       "versions": {
@@ -324,10 +366,16 @@
         {
           "name": "TheMikirog",
           "email": "",
-          "discord": "TheMikirog#1984"
+          "discord": "themikirog"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "3272ee5dd06d5ad603c6a1be189ad1d1"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "0841b9e",
@@ -343,7 +391,7 @@
         {
           "name": "SEBASTIAN2059",
           "email": "",
-          "discord": "SEBASTIAN2059#5751"
+          "discord": "sebastian2059"
         },
         {
           "name": "zPanxo",
@@ -373,10 +421,16 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "3730cdc9f922ac5a8c86e2c7debd09fe"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "52094fc",
@@ -392,7 +446,7 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
@@ -417,10 +471,16 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "a1d2d75303aaeb0b078a4c836d65ebee"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2aa1e50",
@@ -436,10 +496,16 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "aa03952868be8e978d7b23891883b52a"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2aa1e50",
@@ -455,10 +521,16 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "3a99f089fda47e034b16e7fa086ee051"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "2aa1e50",
@@ -474,10 +546,16 @@
         {
           "name": "Mr.Smoothy",
           "email": "smoothy@bombsquad.ga",
-          "discord": "mr.smoothy#5824"
+          "discord": "mr.smoothy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "627390f50e18bd76d94abf35f538ec8f"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "52094fc",
@@ -529,12 +607,12 @@
         {
           "name": "TheMikirog",
           "email": "",
-          "discord": "TheMikirog#1984"
+          "discord": "themikirog"
         },
         {
           "name": "JoseAng3l",
           "email": "",
-          "discord": "! JoseANG3L#0268"
+          "discord": "joseang3l"
         }
       ],
       "versions": {
@@ -588,6 +666,12 @@
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "7e741a7f4c1ace1124d8719a009f8948"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -603,10 +687,16 @@
         {
           "name": "ThePersonMan",
           "email": "",
-          "discord": "ThePersonMan#0276"
+          "discord": "the.personman"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "270961a492432e6199dec2d0915d8acf"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -622,10 +712,16 @@
         {
           "name": "Dliwk",
           "email": "",
-          "discord": "Dliwk#7961"
+          "discord": "dliwk"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "3fb424583f1e686854fe94bd22c5161c"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -645,6 +741,12 @@
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "7e70fb037b49b183a9fb4eaa2babb90e"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -660,10 +762,16 @@
         {
           "name": "SEBASTIAN2059",
           "email": "",
-          "discord": "SEBASTIAN2059#5751"
+          "discord": "sebastian2059"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "febeeb370ac150f455ed27bc9d557d75"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -677,7 +785,7 @@
       "external_url": "",
       "authors": [
         {
-          "name": "Unknown",
+          "name": "-",
           "email": "",
           "discord": ""
         }
@@ -698,10 +806,16 @@
         {
           "name": "Cross Joy",
           "email": "cross.joy.official@gmail.com",
-          "discord": "Cross Joy#0721"
+          "discord": "crossjoy"
         }
       ],
       "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "2b5c9ee",
+          "released_on": "22-01-2024",
+          "md5sum": "82ffbb28961c57731bd64d4c4add06cd"
+        },
         "1.0.0": {
           "api_version": 7,
           "commit_sha": "7219487",
@@ -759,7 +873,7 @@
       "external_url": "",
       "authors": [
         {
-          "name": "Unknown",
+          "name": "-",
           "email": "",
           "discord": ""
         }
@@ -770,6 +884,44 @@
           "commit_sha": "2309aab",
           "released_on": "24-07-2023",
           "md5sum": "01b85dc9ef1d464ab604387af09f05dc"
+        }
+      }
+    },
+    "bomb_on_my_head": {
+      "description": "Bomb on your head, Survive as long as you can!",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "c39664c",
+          "released_on": "22-08-2023",
+          "md5sum": "daf75409557f12146c1a63d61f429e10"
+        }
+      }
+    },
+    "infection": {
+      "description": "It's spreading, avoid the spread!",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "JoseAng3l",
+          "email": "",
+          "discord": "joseang3l"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "4a9cdcd798454e5034a5ea9ce58fe586"
         }
       }
     },
@@ -808,11 +960,427 @@
         }
       ],
       "versions": {
+        "1.1.0": {
+          "api_version": 8,
+          "commit_sha": "6a66826",
+          "released_on": "12-10-2023",
+          "md5sum": "f71b146868554b61b7b1fe3d393a5859"
+        },
         "1.0.0": {
           "api_version": 8,
           "commit_sha": "68e77f2",
           "released_on": "24-07-2023",
           "md5sum": "1cbe5b3e85b5dfcee1eb322f33568fd4"
+        }
+      }
+    },
+    "avalanche": {
+      "description": "Dodge the falling ice bombs",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "a07a171c29417056bb69ed1cf0f2864b"
+        }
+      }
+    },
+    "hyper_race": {
+      "description": "Race and avoid the obstacles",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "JoseAng3l",
+          "email": "",
+          "discord": "joseang3l"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "8b423bdae256bd411489528b550b8bd9"
+        }
+      }
+    },
+    "meteor_shower_deluxe": {
+      "description": "Meteor shower on all maps support",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "EraOSBeta",
+          "email": "",
+          "discord": "3ra0"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "718039b",
+          "released_on": "24-01-2024",
+          "md5sum": "7e86bbc8e3ebb26a66602068950adfbf"
+        }
+      }
+    },
+    "ofuuu_attack": {
+      "description": "Dodge the falling bombs.",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Riyukii",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "718039b",
+          "released_on": "24-01-2024",
+          "md5sum": "982c72f2d2cb3d50280f50b022e7865f"
+        }
+      }
+    },
+    "snow_ball_fight": {
+      "description": "Throw snoballs and dominate",
+      "external_url": "https://youtu.be/uXyb_meBjGI?si=D_N_OXZT5BFh8R5C",
+      "authors": [
+        {
+          "name": "JoseAng3l",
+          "email": "",
+          "discord": "joseang3l"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "718039b",
+          "released_on": "24-01-2024",
+          "md5sum": "ef6bd7cd0404674f65e8f8d4da3ab8c8"
+        }
+      }
+    },
+    "egg_game": {
+      "description": "Throw Egg as far u can",
+      "external_url": "https://youtu.be/82vLp9ceCcw?si=OSC5Hu3Ns7PevlwP",
+      "authors": [
+        {
+          "name": "Mr.Smoothy",
+          "email": "",
+          "discord": "mr.smoothy"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "388e58a",
+          "released_on": "01-02-2024",
+          "md5sum": "8fc1f9c984f9e77b0125cbeaba5c13bf"
+        }
+      }
+    },
+    "you_vs_bombsquad": {
+      "description": "You against bombsquad solo or with friends. Playable in co-op",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "JoseAng3l",
+          "email": "",
+          "discord": "joseang3l"
+        }
+      ],
+      "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "9ca6039",
+          "released_on": "15-02-2024",
+          "md5sum": "cb4698e70fd94402eca199250564ffba"
+        },
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "718039b",
+          "released_on": "24-01-2024",
+          "md5sum": "451daeabbd628ec70fa31b80a0999f35"
+        }
+      }
+    },
+    "onslaught_football": {
+      "description": "Onslaught but in football map",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "e6267fec4dc7f874b1f8065863aae1cb"
+        }
+      }
+    },
+    "lame_fight": {
+      "description": "Save World With Super Powers. Playable in co-op",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Blitz",
+          "email": "",
+          "discord": "itsmeblitz"
+        }
+      ],
+      "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "9ca6039",
+          "released_on": "15-02-2024",
+          "md5sum": "9072f98eef0739474b2839a0866be969"
+        },
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "eb0e5a8658e82b3aac6b04b68c1c0f60"
+        }
+      }
+    },
+    "infinite_ninjas": {
+      "description": "How long can you survive from Ninjas??",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "15e303e02e3da4636fd002c43a579180"
+        }
+      }
+    },
+    "gravity_falls": {
+      "description": "Trip to the moon",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "6d0b06b283ef702f41837f09e457d3b8"
+        }
+      }
+    },
+    "bot_chase": {
+      "description": "Try to survive from bots! Playable in co-op",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "! JETZ",
+          "email": "",
+          "discord": "! JETZ#5313"
+        }
+      ],
+      "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "9ca6039",
+          "released_on": "15-02-2024",
+          "md5sum": "209ddaa4c4e128650730771db4d0588c"
+        },
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "b0519f41146eb2f8b9c2d6c747376a9b"
+        }
+      }
+    },
+    "down_into_the_abyss": {
+      "description": "Survive as long as you can but dont miss a step",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "d3c488671dd35c488e22002ddeb80aef"
+        }
+      }
+    },
+    "better_deathmatch": {
+      "description": "A very-customisable DeathMatch mini-game",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Freaku",
+          "email": "",
+          "discord": "freakyyyy"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "0b607db2dbe3ab40aa05bd4bfd5b4afa"
+        }
+      }
+    },
+    "better_elimination": {
+      "description": "A very-customisable Elimination mini-game",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Freaku",
+          "email": "",
+          "discord": "freakyyyy"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "18bbb7f6ddc4206c7039ad3b5f5facae"
+        }
+      }
+    },
+    "bot_shower": {
+      "description": "Survive from the bots.",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "! JETZ",
+          "email": "",
+          "discord": "! JETZ#5313"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "4941d0c",
+          "released_on": "01-02-2024",
+          "md5sum": "1259e09ccd9b10ae82e4a6623572a4d2"
+        }
+      }
+    },
+    "explodo_run": {
+      "description": "Cursed meteor shower of crazy Captain Jack trying take your soul. Playable in co-op",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Blitz",
+          "email": "",
+          "discord": "itsmeblitz"
+        }
+      ],
+      "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "9ca6039",
+          "released_on": "15-02-2024",
+          "md5sum": "4d711d5eb874cd63a81e9499abb74dd1"
+        },
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "ec6286e",
+          "released_on": "01-02-2024",
+          "md5sum": "e3cd927316b9c3bcac714b4dc8d0d73c"
+        }
+      }
+    },
+    "extinction": {
+      "description": "Survive the Extinction. Playable in co-op",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "-",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.1": {
+          "api_version": 8,
+          "commit_sha": "9ca6039",
+          "released_on": "15-02-2024",
+          "md5sum": "1e74b3d2e38ac310a1b3fc28e13833dd"
+        },
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "5063690",
+          "released_on": "03-02-2024",
+          "md5sum": "9fb61df79a50d010864964a7cb1de76e"
+        }
+      }
+    },
+    "fat_pigs": {
+      "description": "Eliminate other Mels' while dodging falling stickies.",
+      "external_url": "",
+      "authors": [
+        {
+          "name": "Zacker Tz",
+          "email": "",
+          "discord": "zacker_tz"
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "ec6286e",
+          "released_on": "01-02-2024",
+          "md5sum": "fe0d82c322ce01d8956af3131e135ad2"
+        }
+      }
+    },
+    "flag_day": {
+      "description": "Pick up flags to receive a prize.But beware...",
+      "external_url": "https://youtu.be/ANDzdBicjA4?si=h8S_TPUAxSaG7nls",
+      "authors": [
+        {
+          "name": "MattZ45986",
+          "email": "",
+          "discord": ""
+        }
+      ],
+      "versions": {
+        "1.0.0": {
+          "api_version": 8,
+          "commit_sha": "ec6286e",
+          "released_on": "01-02-2024",
+          "md5sum": "e11fbf742e6556939ac8d986e2dd430b"
         }
       }
     }

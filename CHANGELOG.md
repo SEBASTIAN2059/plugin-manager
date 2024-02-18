@@ -1,5 +1,26 @@
 ## Plugin Manager (dd-mm-yyyy)
 
+### 1.0.6 (26-12-2023)
+
+- Fixed plugin manager throwing errors on older builds
+
+### 1.0.5 (11-12-2023)
+
+- Fix a typo.
+
+### 1.0.4 (08-12-2023)
+
+- Fix a few UI warnings related to 1.7.30.
+- Fix a memory leak.
+
+### 1.0.3 (06-10-2023)
+
+- Add a compatibility layer for older builds for API deprecation changes that occured in https://github.com/efroemling/ballistica/blob/master/CHANGELOG.md#1727-build-21282-api-8-2023-08-30
+
+### 1.0.2 (01-10-2023)
+
+- Rename deprecated `babase.app.api_version` -> `babase.app.env.api_version`.
+
 ### 1.0.1 (30-06-2023)
 
 - Allow specifying branch names in custom sources.
@@ -74,3 +95,7 @@
 ### 0.1.5 (08-09-2022)
 
 - Plugin files that export classes besides plugin or game, now work.
+
+### 0.1.4 (05-09-2022)
+
+- First public release of plugin manager. 🎉
